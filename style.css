@@ -1,14 +1,23 @@
 #container{
     position: relative;
-    top: 30px;
+    top: 0px;
+    left: 450px;
     outline: 2px solid #000;
     font-size: 5px;
     margin: auto;
-    height: 960px;
+    height: 940px;
     width: 1000px;
     padding: 0px;
     border: none;
     display: inline-grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
+}
+
+#size{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 320px;
+    width: 100px;
 }
