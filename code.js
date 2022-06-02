@@ -6,6 +6,11 @@ var number = input.value;
 buttn.addEventListener('click', function()
 {
     var number = input.value;
+    if (number > 100)
+    {
+        alert("Please choose a number below 100.");
+        number = null;
+    }
     container.style.gridTemplateColumns = `repeat(${number} , 1fr)`;
     container.style.gridTemplateRows = `repeat(${number} . 1fr)`;
     var product = number * number;
