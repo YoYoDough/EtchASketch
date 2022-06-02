@@ -23,7 +23,10 @@ function grid(size)
         box.classList.add('box')
         box.addEventListener('mouseover', function hover() {
             box.style.background = 'black';
-    });
+        });
+        box.addEventListener('mousedown', function hover(){
+            box.style.background = 'black';
+        });
         container.appendChild(box)
     }
 }
